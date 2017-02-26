@@ -21,5 +21,15 @@ namespace Projekt_BBD_Sikora_Szeremet
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

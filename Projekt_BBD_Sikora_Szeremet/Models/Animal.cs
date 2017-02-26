@@ -11,7 +11,6 @@ namespace Projekt_BBD_Sikora_Szeremet.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime? DateOfBirth { get; set; }
-        public int? AddressId { get; set; }
         public string Breed { get; set; }
     }
 }
