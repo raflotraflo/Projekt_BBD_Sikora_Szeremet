@@ -18,7 +18,7 @@ namespace Projekt_BBD_Sikora_Szeremet.Repository
 
         public RepositoryContext(string connectionString) : base(connectionString) { }
 
-        public new IDbSet<TEntity> Set<TEntity>() where TEntity : class
+        public new DbSet<TEntity> Set<TEntity>() where TEntity : class
         {
             return base.Set<TEntity>();
         }

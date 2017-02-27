@@ -13,7 +13,7 @@ namespace Projekt_BBD_Sikora_Szeremet.Repository
     {
         //private IRepositoryContext _db;
         internal RepositoryContext _context;
-        internal IDbSet<T> _dbSet;
+        internal DbSet<T> _dbSet;
 
         public RepositoryBase(RepositoryContext context)
         {
