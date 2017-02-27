@@ -39,7 +39,7 @@ namespace Projekt_BBD_Sikora_Szeremet
             catch (Exception)
             {
                 labelConnectionStatus.Text = "Error";
-            }    
+            }
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -78,7 +78,7 @@ namespace Projekt_BBD_Sikora_Szeremet
 
             dataGridViewVisits.DataSource = visitList;
 
-            db.Dispose();
+
         }
 
         #region Vet
@@ -117,7 +117,7 @@ namespace Projekt_BBD_Sikora_Szeremet
             if (dataGridViewVets.CurrentRow == null)
                 return;
 
-            var selectedVet = (Vet) dataGridViewVets.CurrentRow.DataBoundItem;
+            var selectedVet = (Vet)dataGridViewVets.CurrentRow.DataBoundItem;
 
             using (RepositoryContext db = new RepositoryContext("RepositoryContext"))
             {
@@ -170,7 +170,7 @@ namespace Projekt_BBD_Sikora_Szeremet
             if (dataGridViewOwners.CurrentRow == null)
                 return;
 
-            var selectedOwner = (Owner) dataGridViewOwners.CurrentRow.DataBoundItem;
+            var selectedOwner = (Owner)dataGridViewOwners.CurrentRow.DataBoundItem;
 
             using (RepositoryContext db = new RepositoryContext("RepositoryContext"))
             {
@@ -187,9 +187,9 @@ namespace Projekt_BBD_Sikora_Szeremet
 
         private void dataGridViewOwners_SelectionChanged(object sender, EventArgs e)
         {
-            DataGridView dataGrid = (DataGridView) sender;
+            DataGridView dataGrid = (DataGridView)sender;
 
-            if(dataGrid.CurrentRow == null)
+            if (dataGrid.CurrentRow == null)
                 return;
 
             var selectedOwner = (Owner)dataGrid.CurrentRow.DataBoundItem;
@@ -207,7 +207,7 @@ namespace Projekt_BBD_Sikora_Szeremet
             if (comboBoxOwnerList.SelectedItem == null)
                 return;
 
-            int ownerId = ((Owner) comboBoxOwnerList.SelectedItem).Id;
+            int ownerId = ((Owner)comboBoxOwnerList.SelectedItem).Id;
 
             Animal newAnimal = new Animal
             {
@@ -242,7 +242,7 @@ namespace Projekt_BBD_Sikora_Szeremet
             if (dataGridViewAnimals.CurrentRow == null)
                 return;
 
-            var selectedOwner = (Animal) dataGridViewAnimals.CurrentRow.DataBoundItem;
+            var selectedOwner = (Animal)dataGridViewAnimals.CurrentRow.DataBoundItem;
 
             using (RepositoryContext db = new RepositoryContext("RepositoryContext"))
             {
@@ -264,12 +264,12 @@ namespace Projekt_BBD_Sikora_Szeremet
 
         private void comboBoxOwnersFromVisit_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ComboBox cm = (ComboBox) sender;
+            ComboBox cm = (ComboBox)sender;
 
             if (cm.SelectedItem == null)
                 return;
 
-            var owner = (Owner) cm.SelectedItem;
+            var owner = (Owner)cm.SelectedItem;
 
             labelSelectedOwner.Text = owner.ToString();
 
@@ -286,9 +286,9 @@ namespace Projekt_BBD_Sikora_Szeremet
             }
 
 
-            int ownerId = ((Owner) comboBoxOwnersFromVisit.SelectedItem).Id;
-            int vetId = ((Vet) comboBoxVets.SelectedItem).Id;
-            int animalId = ((Animal) comboBoxAnimals.SelectedItem).Id;
+            int ownerId = ((Owner)comboBoxOwnersFromVisit.SelectedItem).Id;
+            int vetId = ((Vet)comboBoxVets.SelectedItem).Id;
+            int animalId = ((Animal)comboBoxAnimals.SelectedItem).Id;
 
             int cost = 0;
             try

@@ -29,6 +29,7 @@ namespace Projekt_BBD_Sikora_Szeremet.Repository
         {
 
             Configuration.LazyLoadingEnabled = false;
+
             // Potrzebne dla klas Identity
             //base.OnModelCreating(modelBuilder);
             //modelBuilder. = false;

@@ -649,7 +649,7 @@
             this.dataGridViewOwners.Location = new System.Drawing.Point(6, 264);
             this.dataGridViewOwners.Name = "dataGridViewOwners";
             this.dataGridViewOwners.RowTemplate.Height = 24;
-            this.dataGridViewOwners.Size = new System.Drawing.Size(537, 426);
+            this.dataGridViewOwners.Size = new System.Drawing.Size(560, 426);
             this.dataGridViewOwners.TabIndex = 10;
             this.dataGridViewOwners.SelectionChanged += new System.EventHandler(this.dataGridViewOwners_SelectionChanged);
             // 
@@ -684,7 +684,7 @@
             // 
             // buttonDeleteOwner
             // 
-            this.buttonDeleteOwner.Location = new System.Drawing.Point(549, 640);
+            this.buttonDeleteOwner.Location = new System.Drawing.Point(572, 640);
             this.buttonDeleteOwner.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonDeleteOwner.Name = "buttonDeleteOwner";
             this.buttonDeleteOwner.Size = new System.Drawing.Size(149, 50);
@@ -726,10 +726,10 @@
             // dataGridViewOwnerAnimals
             // 
             this.dataGridViewOwnerAnimals.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewOwnerAnimals.Location = new System.Drawing.Point(549, 264);
+            this.dataGridViewOwnerAnimals.Location = new System.Drawing.Point(572, 264);
             this.dataGridViewOwnerAnimals.Name = "dataGridViewOwnerAnimals";
             this.dataGridViewOwnerAnimals.RowTemplate.Height = 24;
-            this.dataGridViewOwnerAnimals.Size = new System.Drawing.Size(714, 323);
+            this.dataGridViewOwnerAnimals.Size = new System.Drawing.Size(691, 323);
             this.dataGridViewOwnerAnimals.TabIndex = 14;
             // 
             // label9
