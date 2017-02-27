@@ -28,87 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.buttonAddNewVet = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.StopButton = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxVetEmail = new System.Windows.Forms.TextBox();
+            this.textBoxVetPhoneNumber = new System.Windows.Forms.TextBox();
+            this.AddNewVet = new System.Windows.Forms.Button();
+            this.textBoxVetLicenceNo = new System.Windows.Forms.TextBox();
+            this.textBoxVetSurname = new System.Windows.Forms.TextBox();
+            this.textBoxVetName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
+            this.textBoxOwnerEmail = new System.Windows.Forms.TextBox();
+            this.textBoxOwnerPhoneNumber = new System.Windows.Forms.TextBox();
+            this.labelSelectedOwner = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.buttonAddNewOwner = new System.Windows.Forms.Button();
+            this.textBoxOwnerSurname = new System.Windows.Forms.TextBox();
+            this.textBoxOwnerName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.s = new System.Windows.Forms.TabPage();
+            this.comboBoxOwnerList = new System.Windows.Forms.ComboBox();
+            this.buttonAddNewAnimal = new System.Windows.Forms.Button();
+            this.textBoxAnimalBreed = new System.Windows.Forms.TextBox();
+            this.textBoxAnimalName = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.label23 = new System.Windows.Forms.Label();
+            this.textBoxVisitDescription = new System.Windows.Forms.TextBox();
+            this.textBoxVisitCost = new System.Windows.Forms.TextBox();
+            this.buttonAddVisit = new System.Windows.Forms.Button();
+            this.dateTimePickerVisitData = new System.Windows.Forms.DateTimePicker();
             this.label22 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxAnimals = new System.Windows.Forms.ComboBox();
+            this.comboBoxOwnersFromVisit = new System.Windows.Forms.ComboBox();
+            this.comboBoxVets = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.tabControl1.SuspendLayout();
+            this.dataGridViewVets = new System.Windows.Forms.DataGridView();
+            this.dataGridViewOwners = new System.Windows.Forms.DataGridView();
+            this.dataGridViewAnimals = new System.Windows.Forms.DataGridView();
+            this.dataGridViewVisits = new System.Windows.Forms.DataGridView();
+            this.buttonDeleteVet = new System.Windows.Forms.Button();
+            this.buttonDeleteOwner = new System.Windows.Forms.Button();
+            this.dateTimePickerAnimalDate = new System.Windows.Forms.DateTimePicker();
+            this.buttonDeleteAnimal = new System.Windows.Forms.Button();
+            this.buttonDeleteVisit = new System.Windows.Forms.Button();
+            this.dataGridViewOwnerAnimals = new System.Windows.Forms.DataGridView();
+            this.label9 = new System.Windows.Forms.Label();
+            this.labelConnectionStatus = new System.Windows.Forms.Label();
+            this.buttonAddNewVet.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
+            this.s.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVets)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOwners)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAnimals)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVisits)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOwnerAnimals)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // buttonAddNewVet
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(12, 11);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1285, 724);
-            this.tabControl1.TabIndex = 0;
+            this.buttonAddNewVet.Controls.Add(this.tabPage1);
+            this.buttonAddNewVet.Controls.Add(this.tabPage2);
+            this.buttonAddNewVet.Controls.Add(this.tabPage3);
+            this.buttonAddNewVet.Controls.Add(this.s);
+            this.buttonAddNewVet.Controls.Add(this.tabPage5);
+            this.buttonAddNewVet.Location = new System.Drawing.Point(12, 11);
+            this.buttonAddNewVet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonAddNewVet.Name = "buttonAddNewVet";
+            this.buttonAddNewVet.SelectedIndex = 0;
+            this.buttonAddNewVet.Size = new System.Drawing.Size(1285, 724);
+            this.buttonAddNewVet.TabIndex = 0;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.labelConnectionStatus);
+            this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.StopButton);
             this.tabPage1.Controls.Add(this.richTextBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
@@ -147,14 +161,16 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.buttonDeleteVet);
+            this.tabPage2.Controls.Add(this.dataGridViewVets);
             this.tabPage2.Controls.Add(this.label28);
             this.tabPage2.Controls.Add(this.label27);
-            this.tabPage2.Controls.Add(this.textBox14);
-            this.tabPage2.Controls.Add(this.textBox13);
-            this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Controls.Add(this.textBox3);
-            this.tabPage2.Controls.Add(this.textBox2);
-            this.tabPage2.Controls.Add(this.textBox1);
+            this.tabPage2.Controls.Add(this.textBoxVetEmail);
+            this.tabPage2.Controls.Add(this.textBoxVetPhoneNumber);
+            this.tabPage2.Controls.Add(this.AddNewVet);
+            this.tabPage2.Controls.Add(this.textBoxVetLicenceNo);
+            this.tabPage2.Controls.Add(this.textBoxVetSurname);
+            this.tabPage2.Controls.Add(this.textBoxVetName);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label1);
@@ -183,56 +199,56 @@
             this.label27.TabIndex = 9;
             this.label27.Text = "Telefon:";
             // 
-            // textBox14
+            // textBoxVetEmail
             // 
-            this.textBox14.Location = new System.Drawing.Point(339, 245);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(300, 22);
-            this.textBox14.TabIndex = 8;
+            this.textBoxVetEmail.Location = new System.Drawing.Point(339, 245);
+            this.textBoxVetEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxVetEmail.Name = "textBoxVetEmail";
+            this.textBoxVetEmail.Size = new System.Drawing.Size(300, 22);
+            this.textBoxVetEmail.TabIndex = 8;
             // 
-            // textBox13
+            // textBoxVetPhoneNumber
             // 
-            this.textBox13.Location = new System.Drawing.Point(339, 192);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(300, 22);
-            this.textBox13.TabIndex = 7;
+            this.textBoxVetPhoneNumber.Location = new System.Drawing.Point(339, 192);
+            this.textBoxVetPhoneNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxVetPhoneNumber.Name = "textBoxVetPhoneNumber";
+            this.textBoxVetPhoneNumber.Size = new System.Drawing.Size(300, 22);
+            this.textBoxVetPhoneNumber.TabIndex = 7;
             // 
-            // button1
+            // AddNewVet
             // 
-            this.button1.Location = new System.Drawing.Point(761, 217);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 50);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Dodaj nowego Weterynarza";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.AddNewVet.Location = new System.Drawing.Point(761, 217);
+            this.AddNewVet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.AddNewVet.Name = "AddNewVet";
+            this.AddNewVet.Size = new System.Drawing.Size(149, 50);
+            this.AddNewVet.TabIndex = 6;
+            this.AddNewVet.Text = "Dodaj nowego Weterynarza";
+            this.AddNewVet.UseVisualStyleBackColor = true;
+            this.AddNewVet.Click += new System.EventHandler(this.AddNewVet_Click);
             // 
-            // textBox3
+            // textBoxVetLicenceNo
             // 
-            this.textBox3.Location = new System.Drawing.Point(339, 135);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(300, 22);
-            this.textBox3.TabIndex = 5;
+            this.textBoxVetLicenceNo.Location = new System.Drawing.Point(339, 135);
+            this.textBoxVetLicenceNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxVetLicenceNo.Name = "textBoxVetLicenceNo";
+            this.textBoxVetLicenceNo.Size = new System.Drawing.Size(300, 22);
+            this.textBoxVetLicenceNo.TabIndex = 5;
             // 
-            // textBox2
+            // textBoxVetSurname
             // 
-            this.textBox2.Location = new System.Drawing.Point(339, 87);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(300, 22);
-            this.textBox2.TabIndex = 4;
+            this.textBoxVetSurname.Location = new System.Drawing.Point(339, 87);
+            this.textBoxVetSurname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxVetSurname.Name = "textBoxVetSurname";
+            this.textBoxVetSurname.Size = new System.Drawing.Size(300, 22);
+            this.textBoxVetSurname.TabIndex = 4;
             // 
-            // textBox1
+            // textBoxVetName
             // 
-            this.textBox1.Location = new System.Drawing.Point(339, 38);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(300, 22);
-            this.textBox1.TabIndex = 3;
+            this.textBoxVetName.Location = new System.Drawing.Point(339, 38);
+            this.textBoxVetName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxVetName.Name = "textBoxVetName";
+            this.textBoxVetName.Size = new System.Drawing.Size(300, 22);
+            this.textBoxVetName.TabIndex = 3;
             // 
             // label3
             // 
@@ -260,13 +276,16 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.textBox12);
-            this.tabPage3.Controls.Add(this.textBox11);
-            this.tabPage3.Controls.Add(this.label25);
+            this.tabPage3.Controls.Add(this.dataGridViewOwnerAnimals);
+            this.tabPage3.Controls.Add(this.buttonDeleteOwner);
+            this.tabPage3.Controls.Add(this.dataGridViewOwners);
+            this.tabPage3.Controls.Add(this.textBoxOwnerEmail);
+            this.tabPage3.Controls.Add(this.textBoxOwnerPhoneNumber);
+            this.tabPage3.Controls.Add(this.labelSelectedOwner);
             this.tabPage3.Controls.Add(this.label24);
-            this.tabPage3.Controls.Add(this.button2);
-            this.tabPage3.Controls.Add(this.textBox5);
-            this.tabPage3.Controls.Add(this.textBox4);
+            this.tabPage3.Controls.Add(this.buttonAddNewOwner);
+            this.tabPage3.Controls.Add(this.textBoxOwnerSurname);
+            this.tabPage3.Controls.Add(this.textBoxOwnerName);
             this.tabPage3.Controls.Add(this.label5);
             this.tabPage3.Controls.Add(this.label4);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
@@ -278,29 +297,29 @@
             this.tabPage3.Text = "Nowy Właściciel";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // textBox12
+            // textBoxOwnerEmail
             // 
-            this.textBox12.Location = new System.Drawing.Point(243, 197);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(300, 22);
-            this.textBox12.TabIndex = 9;
+            this.textBoxOwnerEmail.Location = new System.Drawing.Point(243, 197);
+            this.textBoxOwnerEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxOwnerEmail.Name = "textBoxOwnerEmail";
+            this.textBoxOwnerEmail.Size = new System.Drawing.Size(300, 22);
+            this.textBoxOwnerEmail.TabIndex = 9;
             // 
-            // textBox11
+            // textBoxOwnerPhoneNumber
             // 
-            this.textBox11.Location = new System.Drawing.Point(243, 144);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(300, 22);
-            this.textBox11.TabIndex = 8;
+            this.textBoxOwnerPhoneNumber.Location = new System.Drawing.Point(243, 144);
+            this.textBoxOwnerPhoneNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxOwnerPhoneNumber.Name = "textBoxOwnerPhoneNumber";
+            this.textBoxOwnerPhoneNumber.Size = new System.Drawing.Size(300, 22);
+            this.textBoxOwnerPhoneNumber.TabIndex = 8;
             // 
-            // label25
+            // labelSelectedOwner
             // 
-            this.label25.Location = new System.Drawing.Point(35, 197);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(149, 22);
-            this.label25.TabIndex = 6;
-            this.label25.Text = "Email:";
+            this.labelSelectedOwner.Location = new System.Drawing.Point(549, 239);
+            this.labelSelectedOwner.Name = "labelSelectedOwner";
+            this.labelSelectedOwner.Size = new System.Drawing.Size(149, 22);
+            this.labelSelectedOwner.TabIndex = 6;
+            this.labelSelectedOwner.Text = "Zwierzęta :";
             // 
             // label24
             // 
@@ -310,31 +329,32 @@
             this.label24.TabIndex = 5;
             this.label24.Text = "Telefon:";
             // 
-            // button2
+            // buttonAddNewOwner
             // 
-            this.button2.Location = new System.Drawing.Point(627, 171);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(149, 50);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Dodaj nowego Właściciela";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonAddNewOwner.Location = new System.Drawing.Point(627, 171);
+            this.buttonAddNewOwner.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonAddNewOwner.Name = "buttonAddNewOwner";
+            this.buttonAddNewOwner.Size = new System.Drawing.Size(149, 50);
+            this.buttonAddNewOwner.TabIndex = 4;
+            this.buttonAddNewOwner.Text = "Dodaj nowego Właściciela";
+            this.buttonAddNewOwner.UseVisualStyleBackColor = true;
+            this.buttonAddNewOwner.Click += new System.EventHandler(this.buttonAddNewOwner_Click);
             // 
-            // textBox5
+            // textBoxOwnerSurname
             // 
-            this.textBox5.Location = new System.Drawing.Point(243, 85);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(300, 22);
-            this.textBox5.TabIndex = 3;
+            this.textBoxOwnerSurname.Location = new System.Drawing.Point(243, 85);
+            this.textBoxOwnerSurname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxOwnerSurname.Name = "textBoxOwnerSurname";
+            this.textBoxOwnerSurname.Size = new System.Drawing.Size(300, 22);
+            this.textBoxOwnerSurname.TabIndex = 3;
             // 
-            // textBox4
+            // textBoxOwnerName
             // 
-            this.textBox4.Location = new System.Drawing.Point(243, 37);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(300, 22);
-            this.textBox4.TabIndex = 2;
+            this.textBoxOwnerName.Location = new System.Drawing.Point(243, 37);
+            this.textBoxOwnerName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxOwnerName.Name = "textBoxOwnerName";
+            this.textBoxOwnerName.Size = new System.Drawing.Size(300, 22);
+            this.textBoxOwnerName.TabIndex = 2;
             // 
             // label5
             // 
@@ -352,78 +372,64 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Imię:";
             // 
-            // tabPage4
+            // s
             // 
-            this.tabPage4.Controls.Add(this.comboBox1);
-            this.tabPage4.Controls.Add(this.button3);
-            this.tabPage4.Controls.Add(this.textBox9);
-            this.tabPage4.Controls.Add(this.textBox8);
-            this.tabPage4.Controls.Add(this.textBox7);
-            this.tabPage4.Controls.Add(this.textBox6);
-            this.tabPage4.Controls.Add(this.label10);
-            this.tabPage4.Controls.Add(this.label9);
-            this.tabPage4.Controls.Add(this.label8);
-            this.tabPage4.Controls.Add(this.label7);
-            this.tabPage4.Controls.Add(this.label6);
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage4.Size = new System.Drawing.Size(1277, 695);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Nowe Zwierzę";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.s.Controls.Add(this.buttonDeleteAnimal);
+            this.s.Controls.Add(this.dateTimePickerAnimalDate);
+            this.s.Controls.Add(this.dataGridViewAnimals);
+            this.s.Controls.Add(this.comboBoxOwnerList);
+            this.s.Controls.Add(this.buttonAddNewAnimal);
+            this.s.Controls.Add(this.textBoxAnimalBreed);
+            this.s.Controls.Add(this.textBoxAnimalName);
+            this.s.Controls.Add(this.label10);
+            this.s.Controls.Add(this.label8);
+            this.s.Controls.Add(this.label7);
+            this.s.Controls.Add(this.label6);
+            this.s.Location = new System.Drawing.Point(4, 25);
+            this.s.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.s.Name = "s";
+            this.s.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.s.Size = new System.Drawing.Size(1277, 695);
+            this.s.TabIndex = 3;
+            this.s.Text = "Nowe Zwierzę";
+            this.s.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // comboBoxOwnerList
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(325, 224);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(300, 24);
-            this.comboBox1.TabIndex = 12;
+            this.comboBoxOwnerList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxOwnerList.FormattingEnabled = true;
+            this.comboBoxOwnerList.Location = new System.Drawing.Point(325, 224);
+            this.comboBoxOwnerList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxOwnerList.Name = "comboBoxOwnerList";
+            this.comboBoxOwnerList.Size = new System.Drawing.Size(300, 24);
+            this.comboBoxOwnerList.TabIndex = 12;
             // 
-            // button3
+            // buttonAddNewAnimal
             // 
-            this.button3.Location = new System.Drawing.Point(744, 199);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 50);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Dodaj nowe Zwierzę";
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonAddNewAnimal.Location = new System.Drawing.Point(744, 199);
+            this.buttonAddNewAnimal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonAddNewAnimal.Name = "buttonAddNewAnimal";
+            this.buttonAddNewAnimal.Size = new System.Drawing.Size(149, 50);
+            this.buttonAddNewAnimal.TabIndex = 10;
+            this.buttonAddNewAnimal.Text = "Dodaj nowe Zwierzę";
+            this.buttonAddNewAnimal.UseVisualStyleBackColor = true;
+            this.buttonAddNewAnimal.Click += new System.EventHandler(this.buttonAddNewAnimal_Click);
             // 
-            // textBox9
+            // textBoxAnimalBreed
             // 
-            this.textBox9.Location = new System.Drawing.Point(325, 176);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(300, 22);
-            this.textBox9.TabIndex = 8;
+            this.textBoxAnimalBreed.Location = new System.Drawing.Point(325, 82);
+            this.textBoxAnimalBreed.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxAnimalBreed.Name = "textBoxAnimalBreed";
+            this.textBoxAnimalBreed.Size = new System.Drawing.Size(300, 22);
+            this.textBoxAnimalBreed.TabIndex = 6;
             // 
-            // textBox8
+            // textBoxAnimalName
             // 
-            this.textBox8.Location = new System.Drawing.Point(325, 129);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(300, 22);
-            this.textBox8.TabIndex = 7;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(325, 82);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(300, 22);
-            this.textBox7.TabIndex = 6;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(325, 34);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(300, 22);
-            this.textBox6.TabIndex = 5;
+            this.textBoxAnimalName.Location = new System.Drawing.Point(325, 34);
+            this.textBoxAnimalName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxAnimalName.Name = "textBoxAnimalName";
+            this.textBoxAnimalName.Size = new System.Drawing.Size(300, 22);
+            this.textBoxAnimalName.TabIndex = 5;
             // 
             // label10
             // 
@@ -432,14 +438,6 @@
             this.label10.Size = new System.Drawing.Size(200, 22);
             this.label10.TabIndex = 4;
             this.label10.Text = "Właściel:";
-            // 
-            // label9
-            // 
-            this.label9.Location = new System.Drawing.Point(35, 176);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(200, 22);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "Rasa:";
             // 
             // label8
             // 
@@ -467,18 +465,18 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.buttonDeleteVisit);
+            this.tabPage5.Controls.Add(this.dataGridViewVisits);
             this.tabPage5.Controls.Add(this.label14);
             this.tabPage5.Controls.Add(this.label11);
-            this.tabPage5.Controls.Add(this.textBox15);
-            this.tabPage5.Controls.Add(this.textBox10);
-            this.tabPage5.Controls.Add(this.button4);
-            this.tabPage5.Controls.Add(this.dateTimePicker2);
-            this.tabPage5.Controls.Add(this.comboBox9);
-            this.tabPage5.Controls.Add(this.label23);
+            this.tabPage5.Controls.Add(this.textBoxVisitDescription);
+            this.tabPage5.Controls.Add(this.textBoxVisitCost);
+            this.tabPage5.Controls.Add(this.buttonAddVisit);
+            this.tabPage5.Controls.Add(this.dateTimePickerVisitData);
             this.tabPage5.Controls.Add(this.label22);
-            this.tabPage5.Controls.Add(this.comboBox6);
-            this.tabPage5.Controls.Add(this.comboBox4);
-            this.tabPage5.Controls.Add(this.comboBox2);
+            this.tabPage5.Controls.Add(this.comboBoxAnimals);
+            this.tabPage5.Controls.Add(this.comboBoxOwnersFromVisit);
+            this.tabPage5.Controls.Add(this.comboBoxVets);
             this.tabPage5.Controls.Add(this.label19);
             this.tabPage5.Controls.Add(this.label18);
             this.tabPage5.Controls.Add(this.label16);
@@ -508,59 +506,44 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(100, 25);
             this.label11.TabIndex = 25;
-            this.label11.Text = "Status:";
+            this.label11.Text = "Koszt:";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
-            // textBox15
+            // textBoxVisitDescription
             // 
-            this.textBox15.Location = new System.Drawing.Point(639, 226);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(553, 22);
-            this.textBox15.TabIndex = 24;
+            this.textBoxVisitDescription.Location = new System.Drawing.Point(639, 226);
+            this.textBoxVisitDescription.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxVisitDescription.Multiline = true;
+            this.textBoxVisitDescription.Name = "textBoxVisitDescription";
+            this.textBoxVisitDescription.Size = new System.Drawing.Size(200, 113);
+            this.textBoxVisitDescription.TabIndex = 24;
             // 
-            // textBox10
+            // textBoxVisitCost
             // 
-            this.textBox10.Location = new System.Drawing.Point(639, 166);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(199, 22);
-            this.textBox10.TabIndex = 23;
+            this.textBoxVisitCost.Location = new System.Drawing.Point(639, 166);
+            this.textBoxVisitCost.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxVisitCost.Name = "textBoxVisitCost";
+            this.textBoxVisitCost.Size = new System.Drawing.Size(199, 22);
+            this.textBoxVisitCost.TabIndex = 23;
             // 
-            // button4
+            // buttonAddVisit
             // 
-            this.button4.Location = new System.Drawing.Point(1016, 70);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(149, 50);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "Zarejestruj wizytę";
-            this.button4.UseVisualStyleBackColor = true;
+            this.buttonAddVisit.Location = new System.Drawing.Point(1016, 70);
+            this.buttonAddVisit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonAddVisit.Name = "buttonAddVisit";
+            this.buttonAddVisit.Size = new System.Drawing.Size(149, 50);
+            this.buttonAddVisit.TabIndex = 22;
+            this.buttonAddVisit.Text = "Zarejestruj wizytę";
+            this.buttonAddVisit.UseVisualStyleBackColor = true;
+            this.buttonAddVisit.Click += new System.EventHandler(this.buttonAddVisit_Click);
             // 
-            // dateTimePicker2
+            // dateTimePickerVisitData
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(639, 63);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker2.TabIndex = 21;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(639, 95);
-            this.comboBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(200, 24);
-            this.comboBox9.TabIndex = 19;
-            // 
-            // label23
-            // 
-            this.label23.Location = new System.Drawing.Point(479, 100);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(100, 25);
-            this.label23.TabIndex = 18;
-            this.label23.Text = "Status:";
+            this.dateTimePickerVisitData.Location = new System.Drawing.Point(639, 63);
+            this.dateTimePickerVisitData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dateTimePickerVisitData.Name = "dateTimePickerVisitData";
+            this.dateTimePickerVisitData.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePickerVisitData.TabIndex = 21;
             // 
             // label22
             // 
@@ -570,32 +553,36 @@
             this.label22.TabIndex = 17;
             this.label22.Text = "Data:";
             // 
-            // comboBox6
+            // comboBoxAnimals
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(181, 297);
-            this.comboBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(200, 24);
-            this.comboBox6.TabIndex = 14;
+            this.comboBoxAnimals.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxAnimals.FormattingEnabled = true;
+            this.comboBoxAnimals.Location = new System.Drawing.Point(181, 297);
+            this.comboBoxAnimals.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxAnimals.Name = "comboBoxAnimals";
+            this.comboBoxAnimals.Size = new System.Drawing.Size(200, 24);
+            this.comboBoxAnimals.TabIndex = 14;
             // 
-            // comboBox4
+            // comboBoxOwnersFromVisit
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(181, 201);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(200, 24);
-            this.comboBox4.TabIndex = 12;
+            this.comboBoxOwnersFromVisit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxOwnersFromVisit.FormattingEnabled = true;
+            this.comboBoxOwnersFromVisit.Location = new System.Drawing.Point(181, 201);
+            this.comboBoxOwnersFromVisit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxOwnersFromVisit.Name = "comboBoxOwnersFromVisit";
+            this.comboBoxOwnersFromVisit.Size = new System.Drawing.Size(200, 24);
+            this.comboBoxOwnersFromVisit.TabIndex = 12;
+            this.comboBoxOwnersFromVisit.SelectedIndexChanged += new System.EventHandler(this.comboBoxOwnersFromVisit_SelectedIndexChanged);
             // 
-            // comboBox2
+            // comboBoxVets
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(181, 63);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(200, 24);
-            this.comboBox2.TabIndex = 10;
+            this.comboBoxVets.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxVets.FormattingEnabled = true;
+            this.comboBoxVets.Location = new System.Drawing.Point(181, 63);
+            this.comboBoxVets.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxVets.Name = "comboBoxVets";
+            this.comboBoxVets.Size = new System.Drawing.Size(200, 24);
+            this.comboBoxVets.TabIndex = 10;
             // 
             // label19
             // 
@@ -617,7 +604,7 @@
             // 
             this.label16.Location = new System.Drawing.Point(21, 201);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(100, 25);
+            this.label16.Size = new System.Drawing.Size(129, 25);
             this.label16.TabIndex = 4;
             this.label16.Text = "Imię i Nazwisko:";
             // 
@@ -633,7 +620,7 @@
             // 
             this.label13.Location = new System.Drawing.Point(21, 63);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(100, 25);
+            this.label13.Size = new System.Drawing.Size(111, 25);
             this.label13.TabIndex = 1;
             this.label13.Text = "Imię i Nazwisko:";
             // 
@@ -645,32 +632,153 @@
             this.label12.TabIndex = 0;
             this.label12.Text = "Weterynarz";
             // 
+            // dataGridViewVets
+            // 
+            this.dataGridViewVets.AllowUserToAddRows = false;
+            this.dataGridViewVets.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewVets.Location = new System.Drawing.Point(23, 321);
+            this.dataGridViewVets.Name = "dataGridViewVets";
+            this.dataGridViewVets.ReadOnly = true;
+            this.dataGridViewVets.RowTemplate.Height = 24;
+            this.dataGridViewVets.Size = new System.Drawing.Size(887, 349);
+            this.dataGridViewVets.TabIndex = 11;
+            // 
+            // dataGridViewOwners
+            // 
+            this.dataGridViewOwners.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewOwners.Location = new System.Drawing.Point(6, 264);
+            this.dataGridViewOwners.Name = "dataGridViewOwners";
+            this.dataGridViewOwners.RowTemplate.Height = 24;
+            this.dataGridViewOwners.Size = new System.Drawing.Size(537, 426);
+            this.dataGridViewOwners.TabIndex = 10;
+            this.dataGridViewOwners.SelectionChanged += new System.EventHandler(this.dataGridViewOwners_SelectionChanged);
+            // 
+            // dataGridViewAnimals
+            // 
+            this.dataGridViewAnimals.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewAnimals.Location = new System.Drawing.Point(6, 291);
+            this.dataGridViewAnimals.Name = "dataGridViewAnimals";
+            this.dataGridViewAnimals.RowTemplate.Height = 24;
+            this.dataGridViewAnimals.Size = new System.Drawing.Size(887, 399);
+            this.dataGridViewAnimals.TabIndex = 13;
+            // 
+            // dataGridViewVisits
+            // 
+            this.dataGridViewVisits.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewVisits.Location = new System.Drawing.Point(6, 364);
+            this.dataGridViewVisits.Name = "dataGridViewVisits";
+            this.dataGridViewVisits.RowTemplate.Height = 24;
+            this.dataGridViewVisits.Size = new System.Drawing.Size(1110, 326);
+            this.dataGridViewVisits.TabIndex = 27;
+            // 
+            // buttonDeleteVet
+            // 
+            this.buttonDeleteVet.Location = new System.Drawing.Point(926, 620);
+            this.buttonDeleteVet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonDeleteVet.Name = "buttonDeleteVet";
+            this.buttonDeleteVet.Size = new System.Drawing.Size(149, 50);
+            this.buttonDeleteVet.TabIndex = 12;
+            this.buttonDeleteVet.Text = "Usuń zaznaczonego Weterynarza";
+            this.buttonDeleteVet.UseVisualStyleBackColor = true;
+            this.buttonDeleteVet.Click += new System.EventHandler(this.buttonDeleteVet_Click);
+            // 
+            // buttonDeleteOwner
+            // 
+            this.buttonDeleteOwner.Location = new System.Drawing.Point(549, 640);
+            this.buttonDeleteOwner.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonDeleteOwner.Name = "buttonDeleteOwner";
+            this.buttonDeleteOwner.Size = new System.Drawing.Size(149, 50);
+            this.buttonDeleteOwner.TabIndex = 13;
+            this.buttonDeleteOwner.Text = "Usuń zaznaczonego Właściela";
+            this.buttonDeleteOwner.UseVisualStyleBackColor = true;
+            this.buttonDeleteOwner.Click += new System.EventHandler(this.buttonDeleteOwner_Click);
+            // 
+            // dateTimePickerAnimalDate
+            // 
+            this.dateTimePickerAnimalDate.Location = new System.Drawing.Point(325, 129);
+            this.dateTimePickerAnimalDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dateTimePickerAnimalDate.Name = "dateTimePickerAnimalDate";
+            this.dateTimePickerAnimalDate.Size = new System.Drawing.Size(300, 22);
+            this.dateTimePickerAnimalDate.TabIndex = 22;
+            // 
+            // buttonDeleteAnimal
+            // 
+            this.buttonDeleteAnimal.Location = new System.Drawing.Point(899, 640);
+            this.buttonDeleteAnimal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonDeleteAnimal.Name = "buttonDeleteAnimal";
+            this.buttonDeleteAnimal.Size = new System.Drawing.Size(149, 50);
+            this.buttonDeleteAnimal.TabIndex = 23;
+            this.buttonDeleteAnimal.Text = "Usuń zaznaczone zwirze";
+            this.buttonDeleteAnimal.UseVisualStyleBackColor = true;
+            this.buttonDeleteAnimal.Click += new System.EventHandler(this.buttonDeleteAnimal_Click);
+            // 
+            // buttonDeleteVisit
+            // 
+            this.buttonDeleteVisit.Location = new System.Drawing.Point(1122, 640);
+            this.buttonDeleteVisit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonDeleteVisit.Name = "buttonDeleteVisit";
+            this.buttonDeleteVisit.Size = new System.Drawing.Size(149, 50);
+            this.buttonDeleteVisit.TabIndex = 28;
+            this.buttonDeleteVisit.Text = "Usuń zaznaczoną wizytę";
+            this.buttonDeleteVisit.UseVisualStyleBackColor = true;
+            this.buttonDeleteVisit.Click += new System.EventHandler(this.buttonDeleteVisit_Click);
+            // 
+            // dataGridViewOwnerAnimals
+            // 
+            this.dataGridViewOwnerAnimals.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewOwnerAnimals.Location = new System.Drawing.Point(549, 264);
+            this.dataGridViewOwnerAnimals.Name = "dataGridViewOwnerAnimals";
+            this.dataGridViewOwnerAnimals.RowTemplate.Height = 24;
+            this.dataGridViewOwnerAnimals.Size = new System.Drawing.Size(714, 323);
+            this.dataGridViewOwnerAnimals.TabIndex = 14;
+            // 
+            // label9
+            // 
+            this.label9.Location = new System.Drawing.Point(738, 171);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(146, 22);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Status połaczenia:";
+            // 
+            // labelConnectionStatus
+            // 
+            this.labelConnectionStatus.Location = new System.Drawing.Point(738, 193);
+            this.labelConnectionStatus.Name = "labelConnectionStatus";
+            this.labelConnectionStatus.Size = new System.Drawing.Size(146, 22);
+            this.labelConnectionStatus.TabIndex = 3;
+            this.labelConnectionStatus.Text = "OK";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1312, 748);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.buttonAddNewVet);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.tabControl1.ResumeLayout(false);
+            this.buttonAddNewVet.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
+            this.s.ResumeLayout(false);
+            this.s.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVets)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOwners)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAnimals)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVisits)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOwnerAnimals)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl buttonAddNewVet;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
@@ -679,54 +787,61 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button AddNewVet;
+        private System.Windows.Forms.TextBox textBoxVetLicenceNo;
+        private System.Windows.Forms.TextBox textBoxVetSurname;
+        private System.Windows.Forms.TextBox textBoxVetName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxOwnerSurname;
+        private System.Windows.Forms.TextBox textBoxOwnerName;
+        private System.Windows.Forms.Button buttonAddNewOwner;
+        private System.Windows.Forms.TabPage s;
+        private System.Windows.Forms.ComboBox comboBoxOwnerList;
+        private System.Windows.Forms.Button buttonAddNewAnimal;
+        private System.Windows.Forms.TextBox textBoxAnimalBreed;
+        private System.Windows.Forms.TextBox textBoxAnimalName;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBoxAnimals;
+        private System.Windows.Forms.ComboBox comboBoxOwnersFromVisit;
+        private System.Windows.Forms.ComboBox comboBoxVets;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.DateTimePicker dateTimePickerVisitData;
+        private System.Windows.Forms.Button buttonAddVisit;
+        private System.Windows.Forms.TextBox textBoxOwnerEmail;
+        private System.Windows.Forms.TextBox textBoxOwnerPhoneNumber;
+        private System.Windows.Forms.Label labelSelectedOwner;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBoxVetEmail;
+        private System.Windows.Forms.TextBox textBoxVetPhoneNumber;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBoxVisitDescription;
+        private System.Windows.Forms.TextBox textBoxVisitCost;
+        private System.Windows.Forms.DataGridView dataGridViewVets;
+        private System.Windows.Forms.DataGridView dataGridViewOwners;
+        private System.Windows.Forms.DataGridView dataGridViewAnimals;
+        private System.Windows.Forms.DataGridView dataGridViewVisits;
+        private System.Windows.Forms.Button buttonDeleteVet;
+        private System.Windows.Forms.Button buttonDeleteOwner;
+        private System.Windows.Forms.DateTimePicker dateTimePickerAnimalDate;
+        private System.Windows.Forms.Button buttonDeleteAnimal;
+        private System.Windows.Forms.Button buttonDeleteVisit;
+        private System.Windows.Forms.DataGridView dataGridViewOwnerAnimals;
+        private System.Windows.Forms.Label labelConnectionStatus;
+        private System.Windows.Forms.Label label9;
     }
 }
 

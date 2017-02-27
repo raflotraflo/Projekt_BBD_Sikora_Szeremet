@@ -15,5 +15,11 @@ namespace Projekt_BBD_Sikora_Szeremet.Models
 
         public virtual Owner Owner { get; set; }
         public int OwnerId { get; set; }
+
+        public override string ToString()
+        {
+
+            return Name;
+        }
     }
 }

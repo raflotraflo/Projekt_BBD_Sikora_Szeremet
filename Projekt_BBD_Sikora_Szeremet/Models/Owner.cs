@@ -15,5 +15,11 @@ namespace Projekt_BBD_Sikora_Szeremet.Models
         public string PhoneNumber { get; set; }
 
         public virtual List<Animal> Animals { get; set; }
+
+        public override string ToString()
+        {
+
+            return Name + " " + Surname;
+        }
     }
 }

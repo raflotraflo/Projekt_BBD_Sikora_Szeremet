@@ -18,5 +18,8 @@ namespace Projekt_BBD_Sikora_Szeremet.Models
         public virtual Vet Vet { get; set; }
         public int VetId { get; set; }
 
+        public virtual Animal Animal { get; set; }
+        public int AnimalId { get; set; }
+
     }
 }
